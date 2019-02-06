@@ -41,7 +41,7 @@ jobs:
           paths: .
       - run:
           name: Plan out infrastructure changes
-          command: terraform apply -input=false "planfile"
+          command: terraform plan -out "planfile"
 
 workflows:
   version: 2
