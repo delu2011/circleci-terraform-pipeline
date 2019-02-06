@@ -1,1 +1,1 @@
-# circleci-terraform-pipeline
+# gitlabci-terraform-pipeline
